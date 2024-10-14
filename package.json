@@ -1,9 +1,9 @@
 {
   "name": "my-node-server",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "x.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node x.js"
   },
   "dependencies": {
     "axios": "^1.7.2",

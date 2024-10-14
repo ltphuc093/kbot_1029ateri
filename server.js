@@ -3,7 +3,7 @@ const express = require('express');
 const { exec } = require('child_process');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 // Chạy file pip.js
 exec('node x.js', (error, stdout, stderr) => {
